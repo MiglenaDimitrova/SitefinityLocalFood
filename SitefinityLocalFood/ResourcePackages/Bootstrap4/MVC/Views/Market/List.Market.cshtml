@@ -1,0 +1,23 @@
+﻿@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+<div class="row">
+    @foreach (var market in Model.Items)
+    {
+        <div class="col-sm-4 col-md-4 market">
+            <article>
+                <dl>
+                    <dd>@market.Fields.Title</dd>
+                    <dt>@market.Fields.FullAddress</dt>
+                    <dd>
+                        <i class="fa fa-map-marker icon-clock"></i>
+                        <a rel="noreferrer noopener" href="@market.Fields.UrlLocation " target="_blank">Виж на картата</a>
+                    </dd>
+                    <dd>
+                        <i class="fab fa-facebook-f"></i>
+                        <a rel="noreferrer noopener" href="@market.Fields.FacebookPage" target="_blank">Facebook група</a>
+                    </dd>
+                    <dd class="text-danger">@market.Fields.Description</dd>
+                </dl>
+            </article>
+        </div>
+    }
+</div>

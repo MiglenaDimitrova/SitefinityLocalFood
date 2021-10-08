@@ -1,0 +1,50 @@
+﻿@model Telerik.Sitefinity.Frontend.DynamicContent.Mvc.Models.DynamicContentListViewModel
+@using Telerik.Sitefinity.Frontend.Mvc.Helpers
+
+<div class="row">
+    @foreach (var product in this.Model.Items)
+    {
+        var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(product, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
+
+        <div class="media col-md-4">
+            <div class="align-content-around">
+                <div class="media col-md-12">
+                    <svg>
+                        <image href=@product.Fields.Image.Fields.ThumbnailUrl class="img-responsive" width="100%" style="min-height:400px" />
+                    </svg>
+                </div>
+                <div class="col">
+                    <div class="media-body">
+                        <h4 class="media-heading">@product.Fields.Title</h4>
+                    </div>
+                    <div class="media-body">
+                        <h5 class="media-heading">Категория: @product.GetHierarchicalTaxon("Category").Title</h5>
+                    </div>
+                    <hr />
+                    <div class="media-body">
+                        <h6 class="media-heading">@product.Fields.Description</h6>
+                    </div>
+                    <hr />
+                    <div class="media-body">
+                        <span>Производител: </span>
+                        <a href="@navigateUrl">
+                            @product.Fields.Producer.Fields.FullName
+                        </a>
+                        @*<h6 class="media-heading">Производител: @product.Fields.Producer.Fields.FullName</h6>*@
+                        <hr />
+                    </div>
+                    <div class="media-body">
+                        <h6 class="media-heading">@product.Fields.Producer.Fields.Address</h6>
+                        <i class="fa fa-map-marker icon-clock"></i>
+                        <a rel="noreferrer noopener" href="@product.Fields.Producer.Fields.UrlAddress" target="_blank">Виж на картата</a>
+                    </div>
+                    <br />
+                    <div class="media-body">
+                        <h4 class="media-heading text-danger">Цена: @product.Fields.Price лв.</h4>
+                    </div>
+                    <hr />
+                </div>
+            </div>
+        </div>
+    }
+</div>
