@@ -5,9 +5,6 @@
     @foreach (var product in this.Model.Items)
     {
         var navigateUrl = HyperLinkHelpers.GetDetailPageUrl(product, ViewBag.DetailsPageId, ViewBag.OpenInSamePage, Model.UrlKeyPrefix);
-
-
-
         <div class="media col-md-4">
             <div class="align-content-around">
                 <div class="media col-md-12">
