@@ -3,7 +3,7 @@
     "Id": "e5cd6d69-1543-427b-ad62-688a99f5e7d4",
     "Name": "Categories",
     "Type": "Telerik.Sitefinity.Taxonomies.Model.HierarchicalTaxonomy",
-    "LastModified": "2021-10-07T13:27:52.747Z",
+    "LastModified": "2021-10-07T13:41:06.617Z",
     "Title": [
       {
         "Key": "en",

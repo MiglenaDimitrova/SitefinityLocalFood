@@ -1297,6 +1297,7 @@
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Producer\List.Producer.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Producer\Detail.Producer.cshtml" />
     <Content Include="ResourcePackages\Bootstrap4\MVC\Views\Product\Detail.Product.cshtml" />
+    <Content Include="ResourcePackages\Bootstrap4\MVC\Views\SearchBox\SearchBoxLocalFood.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
