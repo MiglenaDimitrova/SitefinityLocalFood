@@ -14,22 +14,21 @@
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-12 col-md-10 col-lg-8">
-                <div class="card-body row no-gutters align-items-center">
-                    <div class="col-auto">
-                        <i class="fas fa-search h4 text-body"></i>
-                    </div>
-                    <div class="col">
-                        <input type="search" title="@Html.Resource("SearchInput")" placeholder="Търси по ключова дума в продукти" id="@searchTextBoxId" class="form-control form-control-lg form-control-borderless" value="@(ViewBag.SearchQuery)" aria-autocomplete="both" aria-describedby='@Html.UniqueId("SearchInfo")' />
-                    </div>
-                    <div class="col-auto">
-                        <button class="btn btn-lg btn-warning" type="submit" id="@(searchButtonId)" @(SystemManager.IsDesignMode ? "disabled" : "") @Html.Resource("SearchLabel")>Търси</button>
-                        <span id='@Html.UniqueId("SearchInfo")' aria-hidden="true" hidden>When autocomplete results are available use up and down arrows to review and enter to select.</span>
-                    </div>
+            <div class="card-body row no-gutters align-items-center">
+                <div class="col-auto">
+                    <i class="fas fa-search h4 text-body"></i>
                 </div>
+                <div class="col">
+                    <input type="search" title="@Html.Resource("SearchInput")" placeholder="Търси по ключова дума в продукти" id="@searchTextBoxId" class="form-control form-control-lg form-control-borderless" value="@(ViewBag.SearchQuery)" aria-autocomplete="both" aria-describedby='@Html.UniqueId("SearchInfo")' />
+                </div>
+                <div class="col-auto">
+                    <button class="btn btn-lg btn-warning" type="submit" id="@(searchButtonId)" @(SystemManager.IsDesignMode ? "disabled" : "") @Html.Resource("SearchLabel")>Търси</button>
+                    <span id='@Html.UniqueId("SearchInfo")' aria-hidden="true" hidden>When autocomplete results are available use up and down arrows to review and enter to select.</span>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 @*<div class="form-group sf-search-input-wrapper" role="search">
         <input type="search" title="@Html.Resource("SearchInput")" placeholder="@Model.BackgroundHint" id="@searchTextBoxId" class="form-control" value="@(ViewBag.SearchQuery)" aria-autocomplete="both" aria-describedby='@Html.UniqueId("SearchInfo")' />
         <button type="button" class="btn btn-primary ml-2" id="@(searchButtonId)" @(SystemManager.IsDesignMode ? "disabled" : "")>@Html.Resource("SearchLabel")</button>

@@ -13,6 +13,7 @@
 
     @{var updateAutoCache = "~/ResourcePackages/Bootstrap4/assets/dist/css/site.css?t=" + DateTime.Now.Ticks;}
     @Html.Section("head")
+    @Html.StyleSheet(Url.WidgetContent("https://use.fontawesome.com/releases/v5.15.4/css/all.css"), "head", true)
     @Html.StyleSheet(Url.WidgetContent("~/ResourcePackages/Bootstrap4/assets/dist/css/minty-theme.css"), "head", true)
     @Html.StyleSheet(Url.WidgetContent(updateAutoCache), "head", true)
     @*@Html.StyleSheet(Url.WidgetContent("~/ResourcePackages/Bootstrap4/assets/dist/css/site.min.css"), "head", true)*@

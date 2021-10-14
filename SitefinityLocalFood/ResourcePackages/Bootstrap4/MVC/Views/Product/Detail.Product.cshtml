@@ -2,24 +2,24 @@
 
 <div class="media col-4 d-flex align-items-stretch ">
     <div class="card mb-3">
-        <h3 class="card-header">@Model.Item.Fields.producer.Fields.FullName</h3>
+        <h3 class="card-header">@Model.Item.Fields.Producer.Fields.FullName</h3>
         <div class="card-body">
-            <h5 class="card-title">@Model.Item.Fields.producer.Fields.CompanyName</h5>
+            <h5 class="card-title">@Model.Item.Fields.Producer.Fields.CompanyName</h5>
             <div>
-                <h6 class="card-subtitle text-muted">@Model.Item.Fields.producer.Fields.Address</h6>
+                <h6 class="card-subtitle text-muted">@Model.Item.Fields.Producer.Fields.Address</h6>
                 <i class="fa fa-map-marker icon-clock"></i>
-                <a rel="noreferrer noopener" href="@Model.Item.Fields.producer.Fields.UrlAddress" target="_blank">Виж на картата</a>
+                <a rel="noreferrer noopener" href="@Model.Item.Fields.Producer.Fields.UrlAddress" target="_blank">Виж на картата</a>
             </div>
             <svg class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-                <image href=@Model.Item.Fields.producer.Fields.Image.Fields.ThumbnailUrl class="media-object mr-3 img-responsive" width="100%" height="200" />
+                <image href=@Model.Item.Fields.Producer.Fields.Image.Fields.ThumbnailUrl class="media-object mr-3 img-responsive" width="100%" height="200" />
             </svg>
             <div class="card-body">
-                <p class="card-text">@Model.Item.Fields.producer.Fields.Description</p>
+                <p class="card-text">@Model.Item.Fields.Producer.Fields.Description</p>
             </div>
             <ul class="list-group list-group-flush">
-                <li class="list-group-item">@Model.Item.Fields.producer.Fields.Phone</li>
-                <li class="list-group-item">@Model.Item.Fields.producer.Fields.Website</li>
-                <li class="list-group-item">@Model.Item.Fields.producer.Fields.Email</li>
+                <li class="list-group-item">@Model.Item.Fields.Producer.Fields.Phone</li>
+                <li class="list-group-item">@Model.Item.Fields.Producer.Fields.Website</li>
+                <li class="list-group-item">@Model.Item.Fields.Producer.Fields.Email</li>
             </ul>
         </div>
     </div>
