@@ -1,0 +1,582 @@
+----------------------------------------
+ActivityId: de5adb78-cd49-4646-a13f-eba229fac66c
+
+Timestamp: 10/8/2021 2:13:12 PM
+
+Message: HandlingInstanceID: 9660d584-90ef-43e2-a0b8-7eb0c77ee6fd
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:13:12
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_Product_Detail_Product_cshtml_Bootstrap4_cshtml.Execute() in c:\Users\mimas\AppData\Local\Temp\Temporary ASP.NET Files\vs\3d518655\cf77e38b\App_Web_detail.product.cshtml#bootstrap4.cshtml.b766e3d3.bf-wdihc.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.RenderWithPerformanceMeasurement(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:13:12 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132781758993578167
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/всички/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132781758993578167
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:15376
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 0b054fd7-d9a0-4858-bd39-86f18c23cdcf
+
+Timestamp: 10/8/2021 2:14:51 PM
+
+Message: HandlingInstanceID: f97e99fa-74d9-4ef2-93ed-1cbd0c1e404b
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:14:51
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_Product_Detail_Product_cshtml_Bootstrap4_cshtml.Execute() in c:\Users\mimas\AppData\Local\Temp\Temporary ASP.NET Files\vs\3d518655\cf77e38b\App_Web_detail.product.cshtml#bootstrap4.cshtml.b766e3d3.bf-wdihc.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:14:51 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132781758993578167
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/всички/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132781758993578167
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16800
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: c11df72c-3339-442f-ac40-d2f4b8cbd172
+
+Timestamp: 10/8/2021 2:23:32 PM
+
+Message: HandlingInstanceID: eeea6bbe-e710-49f4-b347-8ad275742071
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:23:32
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_Product_Detail_Product_cshtml_Bootstrap4_cshtml.Execute() in c:\Users\mimas\AppData\Local\Temp\Temporary ASP.NET Files\vs\3d518655\cf77e38b\App_Web_detail.product.cshtml#bootstrap4.cshtml.b766e3d3.vq4tatb5.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.RenderWithPerformanceMeasurement(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:23:32 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132781758993578167
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/all/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132781758993578167
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:12264
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 976fe3b4-58f8-475f-b1f5-6d248148965b
+
+Timestamp: 10/8/2021 2:24:36 PM
+
+Message: HandlingInstanceID: 6997cd3d-bb52-4eed-a2a8-6f616beb4b13
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:24:36
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_Product_Detail_Product_cshtml_Bootstrap4_cshtml.Execute() in c:\Users\mimas\AppData\Local\Temp\Temporary ASP.NET Files\vs\3d518655\cf77e38b\App_Web_detail.product.cshtml#bootstrap4.cshtml.b766e3d3.vq4tatb5.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:24:36 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132781758993578167
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/all/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132781758993578167
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:16484
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 4b891aa9-467a-49d7-b3d2-1da4b2f03cc9
+
+Timestamp: 10/8/2021 2:28:52 PM
+
+Message: HandlingInstanceID: 35b8edb9-4d61-4f64-9c2d-87b64ad3b60e
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:28:52
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at ASP._Page_Frontend_Assembly_Telerik_Sitefinity_Frontend_DynamicContent_Mvc_Views_Product_Detail_Product_cshtml_Bootstrap4_cshtml.Execute() in c:\Users\mimas\AppData\Local\Temp\Temporary ASP.NET Files\vs\3d518655\cf77e38b\App_Web_detail.product.cshtml#bootstrap4.cshtml.b766e3d3.vq4tatb5.0.cs:line 0
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Compilation.CompilationPerformanceRazorView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:28:52 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-2-132781758993578167
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/all/пчелен-прашец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-2-132781758993578167
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:11360
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: 020eeb85-7cdc-424d-a208-605d11bf73d2
+
+Timestamp: 10/8/2021 2:33:39 PM
+
+Message: HandlingInstanceID: fa268563-38f1-4acb-bbb5-a4be6a3fa371
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 17:33:39
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at SitefinityLocalFood.ResourcePackages.Bootstrap4.MVC.Views.Product.Detail_Product.Execute() in F:\Programming\SitefinityLocalFood\SitefinityLocalFood\obj\FeatherCodeGen\ResourcePackages\Bootstrap4\MVC\Views\..MVC\Views\Product\Detail.Product.cshtml:line 5
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 2:33:39 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-132781771443790113
+ThreadIdentity : admin@abv.bg
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/all/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-3-132781771443790113
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:18492
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bdb9e971-0ca8-4c0c-9f1e-b33e1238f7e9
+
+Timestamp: 10/8/2021 4:34:10 PM
+
+Message: HandlingInstanceID: 935d0562-7140-44a7-9fc9-861ad07daf58
+An exception of type 'Microsoft.CSharp.RuntimeBinder.RuntimeBinderException' occurred and was caught.
+-----------------------------------------------------------------------------------------------------
+10/08/2021 19:34:10
+Type : Microsoft.CSharp.RuntimeBinder.RuntimeBinderException, Microsoft.CSharp, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : 'Telerik.Sitefinity.Frontend.Mvc.Models.DynamicDataItemFieldAccessor' does not contain a definition for 'producer'
+Source : Anonymously Hosted DynamicMethods Assembly
+Help link : 
+Data : System.Collections.ListDictionaryInternal
+TargetSite : System.Object CallSite.Target(System.Runtime.CompilerServices.Closure, System.Runtime.CompilerServices.CallSite, System.Object)
+HResult : -2146233088
+Stack Trace :    at CallSite.Target(Closure , CallSite , Object )
+   at SitefinityLocalFood.ResourcePackages.Bootstrap4.MVC.Views.Product.Detail_Product.Execute() in F:\Programming\SitefinityLocalFood\SitefinityLocalFood\obj\FeatherCodeGen\ResourcePackages\Bootstrap4\MVC\Views\..MVC\Views\Product\Detail.Product.cshtml:line 5
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at RazorGenerator.Mvc.PrecompiledMvcView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultWithFilters(ControllerContext controllerContext, IList`1 filters, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)
+   at Telerik.Sitefinity.Mvc.ControllerWrapper.Execute()
+   at Telerik.Sitefinity.Mvc.ControllerActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+   at Telerik.Sitefinity.Frontend.Mvc.Infrastructure.Routing.FeatherActionInvoker.ExecuteController(MvcProxyBase proxyControl)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/8/2021 4:34:10 PM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-132781771443790113
+ThreadIdentity : Anonymous
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/products/all/лимец
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 9010
+
+Severity: Warning
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-3-132781771443790113
+
+ProcessId: 4548
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:20268
+
+Extended Properties: 
+----------------------------------------
+----------------------------------------
+ActivityId: bb782bfd-407c-4b25-911b-6e764ea6861d
+
+Timestamp: 10/9/2021 6:55:10 AM
+
+Message: HandlingInstanceID: 0f305a45-ed80-46b6-b108-357d1e46b150
+An exception of type 'System.Web.HttpException' occurred and was caught.
+------------------------------------------------------------------------
+10/09/2021 09:55:10
+Type : System.Web.HttpException, System.Web, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a
+Message : Path '/ResourcePackages/Bootstrap4/MVC/Views/Product/List.Product.cshtml' is forbidden.
+Source : System.Web
+Help link : 
+WebEventCode : 0
+ErrorCode : -2147467259
+Data : System.Collections.ListDictionaryInternal
+TargetSite : Void ProcessRequest(System.Web.HttpContext)
+HResult : -2147467259
+Stack Trace :    at System.Web.HttpForbiddenHandler.ProcessRequest(HttpContext context)
+   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()
+   at System.Web.HttpApplication.ExecuteStepImpl(IExecutionStep step)
+   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean& completedSynchronously)
+
+Additional Info:
+
+MachineName : MEGI
+TimeStamp : 10/9/2021 6:55:10 AM
+FullName : Telerik.Sitefinity.Utilities, Version=14.0.7721.0, Culture=neutral, PublicKeyToken=b28c218413bdf563
+AppDomainName : /LM/W3SVC/2/ROOT-3-132782360341864513
+ThreadIdentity : Anonymous
+WindowsIdentity : MEGI\mimas
+Requested URL : https://localhost:44391/ResourcePackages/Bootstrap4/MVC/Views/Product/List.Product.cshtml
+
+
+Category: ErrorLog
+
+Priority: 0
+
+EventId: 90000
+
+Severity: Error
+
+Title:Enterprise Library Exception Handling
+
+Machine: MEGI
+
+App Domain: /LM/W3SVC/2/ROOT-3-132782360341864513
+
+ProcessId: 3376
+
+Process Name: C:\Program Files (x86)\IIS Express\iisexpress.exe
+
+Thread Name: 
+
+Win32 ThreadId:4804
+
+Extended Properties: 
+----------------------------------------

@@ -1,4 +1,7 @@
 ﻿@model Telerik.Sitefinity.Frontend.Mvc.Models.ContentDetailsViewModel
+<div class="div-title">
+    <h1>Продукти на @Model.Item.Fields.CompanyName</h1>
+</div>
 
 <h1 class="producer-company">Продукти на @Model.Item.Fields.CompanyName</h1>
 <div class="row">
@@ -7,9 +10,7 @@
         <div class="media col-md-4">
             <div class="align-content-around">
                 <div class="media col-md-12">
-                    <svg>
-                        <image href=@product.Fields.Image.Fields.ThumbnailUrl class="img-responsive" width="100%" style="min-height:400px" />
-                    </svg>
+                    <img src="@product.Fields.Image.Fields.ThumbnailUrl" class="img-responsive" />
                 </div>
                 <div class="col">
                     <div class="media-body">
